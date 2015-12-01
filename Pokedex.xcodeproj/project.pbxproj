@@ -12,6 +12,7 @@
 		4035FCC21C0D9EC7002F1927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4035FCC01C0D9EC7002F1927 /* Main.storyboard */; };
 		4035FCC41C0D9EC7002F1927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4035FCC31C0D9EC7002F1927 /* Assets.xcassets */; };
 		4035FCC71C0D9EC7002F1927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4035FCC51C0D9EC7002F1927 /* LaunchScreen.storyboard */; };
+		40BEB37D1C0DA5E700AA559F /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 40BEB37C1C0DA5E700AA559F /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4035FCC31C0D9EC7002F1927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4035FCC61C0D9EC7002F1927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4035FCC81C0D9EC7002F1927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BEB37C1C0DA5E700AA559F /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +56,11 @@
 		4035FCBB1C0D9EC7002F1927 /* Pokedex */ = {
 			isa = PBXGroup;
 			children = (
+				4035FCBC1C0D9EC7002F1927 /* AppDelegate.swift */,
+				40BEB37C1C0DA5E700AA559F /* pokemon.csv */,
 				4035FCCE1C0D9F0E002F1927 /* Model */,
 				4035FCCF1C0D9F17002F1927 /* View */,
 				4035FCD01C0D9F2D002F1927 /* Controller */,
-				4035FCBC1C0D9EC7002F1927 /* AppDelegate.swift */,
 				4035FCC31C0D9EC7002F1927 /* Assets.xcassets */,
 				4035FCC81C0D9EC7002F1927 /* Info.plist */,
 			);
@@ -149,6 +152,7 @@
 			files = (
 				4035FCC71C0D9EC7002F1927 /* LaunchScreen.storyboard in Resources */,
 				4035FCC41C0D9EC7002F1927 /* Assets.xcassets in Resources */,
+				40BEB37D1C0DA5E700AA559F /* pokemon.csv in Resources */,
 				4035FCC21C0D9EC7002F1927 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +315,7 @@
 				4035FCCD1C0D9EC7002F1927 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
